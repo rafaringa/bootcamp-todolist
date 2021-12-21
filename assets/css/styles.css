@@ -10,5 +10,22 @@ span {
 }
 
 .todo{
-    min-width: 450px;
+    min-width: 450px !important;
+}
+
+.tarefaConcluida{
+    text-decoration: line-through;
+    text-decoration-style: double;
+    border-color: darkgreen;
+}
+span p {
+    display: none;
+}
+.tarefaConcluida p{
+    position: absolute;
+    transform: rotate(-45deg);
+    font-weight: bold;
+    color: darkgreen;
+    font-size: smaller;
+    display: block !important;
 }
