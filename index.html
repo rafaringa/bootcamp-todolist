@@ -12,18 +12,35 @@
 <!-- Atividade do Bootcamp da DIO.me -->
 
 <body>
-    <div id='central'>
-        <div>
-            <h1>To-do List</h1>
-        </div>
-        <div>
-            <h3>Nova tarefa</h3>
-            <input type="text" name="novatarefanome" id="nometarefa" value="" /><button onclick="insereTarefa()">Adicionar</button>
-        </div>
-        <h3>Tarefas:</h3>
-        <div id="todolist">
-        </div>
+<!-- Bootstrap -->
+<div class="position-absolute top-50 start-50 translate-middle todo">
+<div class="modal-content rounded-5 shadow">
+    <div class="p-5 pb-4 border-bottom-0 text-center">
+      <h2 class="fw-bold mb-0 text-center">To-do List</h2>
     </div>
+    <div class="modal-body p-5 pt-0">
+      <form class="" data-bitwarden-watching="1">
+        <div class="form-floating mb-3">
+          <input type="test" class="form-control rounded-4" id="floatingInput" placeholder="Digite sua nova Tarefa">
+          <label for="floatingInput">Nova Tarefa...</label>
+        </div>
+        <button class="w-100 mb-2 btn btn-lg rounded-4 btn-primary" type="submit">Adicionar Tarefa</button>
+        <hr class="my-4">
+        <h2 class="fs-5 fw-bold mb-3 text-center">Suas Tarefas:</h2>
+        <span class="w-100 py-2 mb-2 btn btn-outline-dark rounded-4 text-left" type="submit">
+          Tarefa 1
+        </span>
+        <span class="w-100 py-2 mb-2 btn btn-outline-primary rounded-4" type="submit">
+          Tarefa 2
+        </span>
+        <span class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-4" type="submit">
+          Tarefa 3
+        </span>
+      </form>
+    </div>
+  </div>
+  </div>
+  <!-- Fim Bootstrap -->
     <script type="text/javascript" src="assets/js/scripts.js"></script>
 </body>
 </html>

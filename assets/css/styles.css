@@ -5,3 +5,10 @@ span {
     padding: 10px;
     width: 100%;
 }
+.modal-content{
+    max-width: 500px;
+}
+
+.todo{
+    min-width: 450px;
+}
