@@ -1,7 +1,7 @@
-var div = document.getElementsByTagName('div')[2];
+var todolist = document.getElementById('todolist');
 
 function insereTarefa(){
     let valor = document.getElementsByTagName('input')[0].value;
     let htmltarefa = '<span><input type="checkbox" />'+ valor + '</span>';
-    div.insertAdjacentHTML("afterend", htmltarefa);
+    todolist.insertAdjacentHTML("afterend", htmltarefa);
 }
